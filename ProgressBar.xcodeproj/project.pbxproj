@@ -12,6 +12,7 @@
 		856F7D292319A30E000E2E21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 856F7D272319A30E000E2E21 /* Main.storyboard */; };
 		856F7D2B2319A30F000E2E21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 856F7D2A2319A30F000E2E21 /* Assets.xcassets */; };
 		856F7D2E2319A30F000E2E21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 856F7D2C2319A30F000E2E21 /* LaunchScreen.storyboard */; };
+		856F7D362319A31E000E2E21 /* ProgressBarHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856F7D352319A31E000E2E21 /* ProgressBarHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		856F7D2A2319A30F000E2E21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		856F7D2D2319A30F000E2E21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		856F7D2F2319A30F000E2E21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		856F7D352319A31E000E2E21 /* ProgressBarHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		856F7D172319A30E000E2E21 = {
 			isa = PBXGroup;
 			children = (
+				856F7D352319A31E000E2E21 /* ProgressBarHelper.swift */,
 				856F7D222319A30E000E2E21 /* ProgressBar */,
 				856F7D212319A30E000E2E21 /* Products */,
 			);
@@ -137,6 +140,7 @@
 			files = (
 				856F7D262319A30E000E2E21 /* ViewController.swift in Sources */,
 				856F7D242319A30E000E2E21 /* AppDelegate.swift in Sources */,
+				856F7D362319A31E000E2E21 /* ProgressBarHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
